@@ -18,7 +18,7 @@ import { BooksComponent } from './books/books.component';
     HomeComponent,
     FooterComponent,
     ContactusComponent,
-    BooksComponent
+    BooksComponent,
   ],
   imports: [
     BrowserModule,
