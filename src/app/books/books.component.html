@@ -1,3 +1,5 @@
+<h1 class="bg-warning mt-5 display-5">BOOKS</h1>
+<input type="text" class="form-control" placeholder="Search by Title or Author...">
 <div class="row row-cols-1 row-cols-sm-1 row-cols-md-2 row-cols-lg-2 lead">
     <div class="col" *ngFor="let bookObj of books">
         <div class="card mt-5 shadow">
@@ -14,14 +16,14 @@
 
                     </div>
 
-                    <div class="col-sm-8">
-                        <br>
-                        <h1>{{bookObj.title}}</h1>
+                    <div class="col-sm-8" style="font-family: 'Roboto Slab', serif;">
+                        <span class="bg-warning">{{bookObj.label}}</span>
+                        <h1 class="text-danger">{{bookObj.title}}</h1>
                         <hr>
                         <h4>Author : {{bookObj.author}}</h4>
                         <h4>Published By : {{bookObj.publisher}}</h4>
-                        <h5>Price : {{bookObj.price | currency:"&#8377;"}}</h5>
-                        <button class="btn btn-success">Add To Cart</button>
+                        <h5>Price : {{bookObj.price | currency:"INR"}}</h5>
+                        <button class="btn btn-success"><i class="fas fa-shopping-cart"></i> Add To Cart</button>
 
                     </div>
 

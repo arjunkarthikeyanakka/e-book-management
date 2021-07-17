@@ -11,7 +11,8 @@ export class BooksdataService {
       title:"Ghost Ship",
       author:"James Rollins",
       publisher:"Sigma Force Novels",
-      price:135.86,
+      price: 135.86,
+      label:"Best Seller",
       image:"https://books.google.com/books/publisher/content/images/frontcover/-zs2DwAAQBAJ?fife=w200-h300"
       },
       {
@@ -19,6 +20,7 @@ export class BooksdataService {
       author:"Arthur Conan Doyle",
       publisher:"Sigma Force Novels",
       price:273.56,
+      label:"Best Seller",
       image:"https://books.google.com/books/publisher/content/images/frontcover/B101DwAAQBAJ?fife=w200-h300"
       },
       {
@@ -33,6 +35,7 @@ export class BooksdataService {
       author:"Ronald H. Balson",
       publisher:"St. Martin's Press",
       price:373.84,
+      label:"Newly Launched",
       image:"https://books.google.com/books/publisher/content/images/frontcover/-dM4DgAAQBAJ?fife=w200-h300"
       },
       {
@@ -54,6 +57,7 @@ export class BooksdataService {
       author:"Mike Maden",
       publisher:"Penguin UK",
       price:343.96,
+      label:"Newly Launched",
       image:"https://books.google.com/books/publisher/content/images/frontcover/PD1DDwAAQBAJ?fife=w200-h300"
       },
       {
@@ -75,6 +79,7 @@ export class BooksdataService {
       author:"Wilbur Smith",
       publisher:"Bonnier Publishing Fiction Ltd.",
       price:353.35,
+      label:"Newly Launched",
       image:"https://books.google.com/books/publisher/content/images/frontcover/0xNDDwAAQBAJ?fife=w200-h300"
       }
   ]
